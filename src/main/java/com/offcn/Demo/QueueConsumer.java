@@ -38,6 +38,7 @@ public class QueueConsumer {
         });
         //8.等待键盘输入
         System.in.read();
+		System.out.println("hello world");
         //9.关闭资源
         consumer.close();
         session.close();
